@@ -1,0 +1,156 @@
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container-4 {
+    color: #100f0f;
+   
+    margin: 0px;
+    background-image: url('WhatsApp Image 2024-01-20 at 15.13.04_30f03824.jpg');
+    background-size:110% 120%;
+    background-repeat: no-repeat;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+
+    
+}
+
+
+
+/* About section styles */
+.container-4 h2 {
+
+    color: #eed61b;
+    font-weight: 100px;
+    font-size: 50px;
+    padding-left: 5%;
+    letter-spacing: 6px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.container-4 p {
+    color: #fff;
+
+}
+
+.container-4 h1 {
+    text-align: center;
+    letter-spacing: 3%;
+    color: #fff;
+    padding-left: 5%;
+    font-size: 70px;
+    font-weight: 200px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+
+.container-4 h1:hover{
+    color: #2a64df;
+
+}
+
+.container-4 h2:hover{
+    color: #2a64df;
+
+}
+
+.container-4 img {
+    padding-left: 7%;
+    
+}
+
+
+
+
+
+
+
+.container-3 {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+.card-3 {
+    background-color: #f6f1f1;
+    padding: 20px;
+    width: 100%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container-3 img{
+    width:70%;
+}
+
+.btn2 {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+
+
+div.mycontainer {
+    display: flex;
+			justify-content: space-around;
+			padding: 10px;
+            width:100% ;
+}
+div.mycontainer .card1 {
+    background-color: #f9f9f9;
+			padding: 10px;
+			text-align: center;
+			width: 20%;
+            height: 50%;
+			box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            
+
+}
+
+div.mycontainer .card1 h2{
+    font-size: 19px;
+}
+
+div.mycontainer .card1 p{
+    font-size: 12px;
+}
+
+div.mycontainer .card1:hover{
+    color:#fff;
+    color:#7494d9
+}
+
+.video {
+    background-size: 100% 60hv;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh; /* Optionally, set a specific height for the container */
+}
+
+.video video {
+    
+    max-width: 640%;
+    max-height: 340%;
+    box-shadow: 0 10px 13px 0 rgba(0, 0, 0, 0.2);
+    pointer-events: fill;
+}
+
+
+
+
+
+
+  h1{
+    text-align: center;
+    font-size: 100px;
+    font-weight: 200%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-top: 20px;
+  }
+
+
+ 

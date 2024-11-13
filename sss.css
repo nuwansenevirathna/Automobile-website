@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #e2e3e7;
+}
+.container {
+    position: relative;
+    max-width: 1200px;
+    width: 100%;
+    padding: 40px;
+}
+.container .box {
+    padding: 50px 30px;
+    overflow: hidden;
+    
+}
+.image img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+    opacity: .9;
+    border: 3px solid #fff;
+}
+.card {
+    position: relative;
+    background: transparent;
+    box-shadow: 
+    inset 20px 20px 20px rgba(0,0,0,0.05), 
+    5px 25px 20px rgba(0,0,0,0.05),
+    5px 20px 30px rgba(0,0,0,0.05),
+    inset -20px -20px 25px rgba(255,255,255,0.9);
+    width: 350px;
+    height: 350px;
+    border-radius: 41% 59% 60% 40% / 40% 44% 56% 60%;
+    transition: .5s ease-in-out;
+}
+.card:hover {
+    border-radius: 50%;
+}
+.card::before {
+    content: '';
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    background: #fff;
+    border-radius: 50%;
+    opacity: .8;
+    top: 50px;
+    left: 65px;
+}
+.card::after {
+    content: '';
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    background: #fff;
+    border-radius: 50%;
+    opacity: .8;
+    top: 90px;
+    left: 85px;
+}
+.card .card-content {
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px;
+}
+.card-content .name-profession {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 10px;
+    color: #333;
+}
+.name-profession .name {
+    font-size: 20px;
+    font-weight: 600;
+}
+.name-profession .profession {
+    font-size: 15px;
+    font-weight: 500;
+}
+.card-content .rating {
+    display: flex;
+    align-items: center;
+    margin-top: 18px;
+}
+.card-content .rating i {
+    font-size: 22px;
+    color: var(--clr);
+    margin: 0 2px;
+    opacity: .75;
+}
+.card-content button {
+    position: relative;
+    padding: 8px 35px;
+    background: var(--clr);
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0px 2px 2px rgba(0,0,0,0.25);
+    cursor: pointer;
+    font-size: 15px;
+    color: #fff;
+    font-weight: 500;
+    opacity: .75;
+    margin-top: 30px;
+}
+.card-content button::before {
+    content: '';
+    position: absolute;
+    background: rgba(255,255,255,0.5);
+    width: 55%;
+    height: 4px;
+    border-radius: 5px;
+    top: 4px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.box .swiper-button-next {
+    right: 0;
+    color: #4e4e4e;
+}
+.box .swiper-button-prev {
+    left: 0;
+    color: #4e4e4e;
+}
+.box .swiper-pagination-bullet {
+    background: #4e4e4e;
+    width: 12px;
+    height: 12px;
+}
